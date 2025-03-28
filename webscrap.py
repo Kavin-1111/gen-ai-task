@@ -4,8 +4,7 @@ import google.generativeai as genai
 import pandas as pd
 import time
 
-# Configure Gemini API
-genai.configure(api_key="AIzaSyBTzGZLBd13S2AfocX_lYC9Lry9BTbdAss")
+
 model = genai.GenerativeModel("gemini-2.0-pro-exp")
 
 # List of URLs to scrape
